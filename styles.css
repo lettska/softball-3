@@ -8,12 +8,12 @@
 
 /* Custom variables */
 :root {
-    --primary-color: white;    /* Navy Blue */
+    --primary-color: #000000;    /* Navy Blue */
     --secondary-color: #FF0000;  /* Light Blue */
     --accent-color: #2ECC71;     /* Green */
     --light-bg: #f8f9fa;
-    --text-dark: #333;
-    --text-light: #fff;
+    --text-dark: #000000;
+    --text-light: #FF0000;
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background: url('photos/team pic_4.jpg') center/contain no-repeat var(--primary-color);
+    background: url('photos/logo.png') center/contain no-repeat var(--primary-color);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -43,7 +43,7 @@ header {
     z-index: 1000;
     height: 80px;
     background-repeat: no-repeat;
-    background-size: 40% 100%;
+    background-size: 10% 100%;
 }
 
 .navbar .main-nav {
@@ -98,7 +98,7 @@ header {
 
 .dropdown-content a:hover {
     background-color: var(--secondary-color);
-    color: black;
+    color: var(--text-light);
 }
 
 /* Sub-dropdown for teams */
