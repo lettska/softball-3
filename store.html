@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Store - Georgia Thunder Softball</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Teams
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="teams.html">Teams</a></li>
+                                <li><a class="dropdown-item" href="teams/thunder-elite-8u.html">Thunder Elite 8U</a></li>
+                                <li><a class="dropdown-item" href="teams/thunder-storm-8u.html">Thunder Storm 8U</a></li>
+                                <!-- Add other team links -->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="join.html">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donate.html">Donate/Sponsor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="store.html">Team Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="store-section py-5">
+            <div class="container">
+                <h1 class="display-4 text-center mb-5">Team Store</h1>
+
+                <!-- Category Navigation -->
+                <ul class="nav nav-pills mb-4 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#uniforms">Uniforms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apparel">Apparel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipment">Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accessories">Accessories</a>
+                    </li>
+                </ul>
+
+                <!-- Products Grid -->
+                <div class="row g-4">
+                    <!-- Uniforms Section -->
+                    <div class="col-12" id="uniforms">
+                        <h2 class="border-bottom pb-2 mb-4">Uniforms</h2>
+                        <div class="row g-4">
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100">
+                                    <img src="photos/team pic_4.jpg" class="card-img-top" alt="Home Jersey">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Home Jersey</h5>
+                                        <p class="card-text">Official Georgia Thunder home jersey with custom name and number.</p>
+                                        <p class="card-text"><strong>$65.00</strong></p>
+                                        <button class="btn btn-primary w-100">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100">
+                                    <img src="photos/team pic_9.jpg" class="card-img-top" alt="Away Jersey">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Away Jersey</h5>
+                                        <p class="card-text">Official Georgia Thunder away jersey with custom name and number.</p>
+                                        <p class="card-text"><strong>$65.00</strong></p>
+                                        <button class="btn btn-primary w-100">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more uniform items -->
+                        </div>
+                    </div>
+
+                    <!-- Apparel Section -->
+                    <div class="col-12" id="apparel">
+                        <h2 class="border-bottom pb-2 mb-4">Apparel</h2>
+                        <div class="row g-4">
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100">
+                                    <img src="photos/hoodie.jpg" class="card-img-top" alt="Team Hoodie">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Team Hoodie</h5>
+                                        <p class="card-text">Comfortable team hoodie with Georgia Thunder logo.</p>
+                                        <p class="card-text"><strong>$45.00</strong></p>
+                                        <button class="btn btn-primary w-100">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more apparel items -->
+                        </div>
+                    </div>
+
+                    <!-- Equipment Section -->
+                    <div class="col-12" id="equipment">
+                        <h2 class="border-bottom pb-2 mb-4">Equipment</h2>
+                        <div class="row g-4">
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100">
+                                    <img src="photos/at bat_1.jpg" class="card-img-top" alt="Team Bat Bag">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Team Bat Bag</h5>
+                                        <p class="card-text">Official team bat bag with Georgia Thunder logo.</p>
+                                        <p class="card-text"><strong>$75.00</strong></p>
+                                        <button class="btn btn-primary w-100">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more equipment items -->
+                        </div>
+                    </div>
+
+                    <!-- Accessories Section -->
+                    <div class="col-12" id="accessories">
+                        <h2 class="border-bottom pb-2 mb-4">Accessories</h2>
+                        <div class="row g-4">
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100">
+                                    <img src="photos/hat.jpg" class="card-img-top" alt="Team Hat">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Team Hat</h5>
+                                        <p class="card-text">Adjustable team hat with embroidered logo.</p>
+                                        <p class="card-text"><strong>$25.00</strong></p>
+                                        <button class="btn btn-primary w-100">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more accessories -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Georgia Thunder Softball. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

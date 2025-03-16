@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Georgia Thunder Softball</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Teams
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="teams.html">Teams</a></li>
+                                <li><a class="dropdown-item" href="teams/thunder-elite-8u.html">Thunder Elite 8U</a></li>
+                                <li><a class="dropdown-item" href="teams/thunder-storm-8u.html">Thunder Storm 8U</a></li>
+                                <!-- Add other team links -->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="join.html">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donate.html">Donate/Sponsor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="store.html">Team Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section py-5">
+            <div class="container">
+                <h1 class="display-4 text-center mb-5">Contact Us</h1>
+                
+                <div class="row g-4">
+                    <!-- Contact Information -->
+                    <div class="col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="card-title mb-4">Get in Touch</h2>
+                                
+                                <div class="mb-4">
+                                    <h3 class="h5 mb-3">General Inquiries</h3>
+                                    <p class="mb-2">
+                                        <i class="bi bi-envelope"></i>
+                                        <a href="mailto:info@georgiathundersoftball.com" class="text-decoration-none">
+                                            info@georgiathundersoftball.com
+                                        </a>
+                                    </p>
+                                    <p class="mb-0">
+                                        <i class="bi bi-telephone"></i>
+                                        <a href="tel:+1234567890" class="text-decoration-none">
+                                            (123) 456-7890
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="mb-4">
+                                    <h3 class="h5 mb-3">Location</h3>
+                                    <p class="mb-0">
+                                        123 Thunder Way<br>
+                                        Atlanta, GA 30301
+                                    </p>
+                                </div>
+
+                                <div class="mb-4">
+                                    <h3 class="h5 mb-3">Follow Us</h3>
+                                    <div class="social-links">
+                                        <a href="#" class="btn btn-outline-primary me-2">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-outline-info me-2">
+                                            <i class="bi bi-twitter"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-outline-danger">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="col-lg-8">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h2 class="card-title mb-4">Send Us a Message</h2>
+                                <form id="contactForm">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name" class="form-label">Name</label>
+                                                <input type="text" class="form-control" id="name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phone" class="form-label">Phone</label>
+                                                <input type="tel" class="form-control" id="phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="subject" class="form-label">Subject</label>
+                                                <select class="form-select" id="subject" required>
+                                                    <option value="">Select Subject</option>
+                                                    <option value="general">General Inquiry</option>
+                                                    <option value="tryouts">Tryouts</option>
+                                                    <option value="sponsorship">Sponsorship</option>
+                                                    <option value="teams">Teams</option>
+                                                    <option value="other">Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="message" class="form-label">Message</label>
+                                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Georgia Thunder Softball. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
