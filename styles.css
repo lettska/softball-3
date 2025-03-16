@@ -35,7 +35,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background: url('photos/logo.png') center/contain no-repeat var(--primary-color);
+    background: url('photos/team pic_4.jpg') center/contain no-repeat var(--primary-color);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
